@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navlateral{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: #850909;
+    float: left;
+}
+
+.navlateral .headercontent{
+    padding: 50% 25%;
+    padding: auto;
+    height: 100%;
+}
+
+.navigation{
+    text-decoration: none;
+    display: block;
+    margin: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: #c52e2e 10px solid;
+}
+
+.conteudo{
+    position: relative;
+    width: 75%;
+    height: 100%;
+    background-color: #fff;
+    float: right;
+    padding: 0 20px;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+h2{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+p{
+    margin-top: 30px;
+}
+
+section{
+    position: relative;
+    top: 250px;
+}
+
+.cletter{
+    color: #850909;
+}
+
+ol{
+    list-style-type: upper-latin;
+}
+
+.c{
+    padding: 30px 20px;
+    font-size: 30px;
+}
+
+.objcontent{
+    position: relative;
+    top: 250px;
+}
+
+li{
+    margin: 5px;
+}
+
+button{
+    margin-right: 10px;
+    border-style: none;
+}
+
+svg{
+    color: black;
+}
